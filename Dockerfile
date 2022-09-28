@@ -1,4 +1,4 @@
 FROM centos:centos7
-RUN yum upgrade && \
-    yum update && \
-    yum install rsync
+RUN yum upgrade -y && \
+    yum update -y && \
+    yum install -y rsync
